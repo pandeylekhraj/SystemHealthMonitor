@@ -1,0 +1,109 @@
+
+
+****************This is DiskSpaceUtilization Info*******************
+
+
+Threshold Percentage Value for Disk =  90 % 
+
+Partitions Utilization
+Number of partitions checked: 10
+number of partitions higher than threshold value: 1
+Maximum Utilized partition percentage: 93.0 %
+Minimum Utilized partition percentage: 1.0 %
+result of CreateODBkeyString nero lastRead = [311]
+result of setODBkeyvalue of nero lastRead = [1]
+result of CreateODBkeyInt of nero maxDiskSpaceChecked = [311]
+result of setODBkeyvalue of nero maxDiskSpaceChecked = [1]
+result of CreateODBkeyInt nero minDiskSpaceChecked = [311]
+result of setODBkeyvalue of nero minDiskSpaceChecked = [1]
+result of CreateODBkeyFloat nero numDiskSpaceChecked = [311]
+result of setODBkeyvalue of nero numDiskSpaceChecked = [1]
+result of CreateODBkeyFloat nero NumGtrThanThreshold = [311]
+result of setODBkeyvalue nero NumGtrThanThreshold = [1]
+
+ 
+DiskSpaceUtilization ODB keys
+
+ProcessorUtilization
+CPU 0 utilization = 2.29 % (idle 97.71 %)
+CPU 1 utilization = 1.81 % (idle 98.19 %)
+CPU 2 utilization = 2.99 % (idle 97.01 %)
+CPU 3 utilization = 2.14 % (idle 97.86 %)
+CPU 4 utilization = 2.0 % (idle 98.00 %)
+CPU 5 utilization = 1.82 % (idle 98.18 %)
+CPU 6 utilization = 1.85 % (idle 98.15 %)
+CPU 7 utilization = 1.9 % (idle 98.10 %)
+
+ProcessorsUtilization ODB keys
+ 
+
+result of CreateODBkeyString nero lastRead = [311]
+result of setODBkeyvalue of nero lastRead = [1]
+result of CreateODBkeyInt nero numCPUchecked =[311]
+result of setODBkeyvalue of nero numCPUchecked =[1]
+result of CreateODBkeyFloat nero minCPUchecked =[311]
+result of setODBkeyvalue of nero minCPUchecked =[1]
+result of CreateODBkeyFloat nero maxCPUchecked =[311]
+result of setODBkeyvalue of nero maxCPUchecked =[1]
+
+ 
+****************This is MemoryUtilization Info*******************
+
+<class 'float'> **********
+Memoryutilization = 28.61 %
+TotalUtilizationMemSwap = 10.12 %
+
+MemoryUtilization ODB keys
+
+result of CreateODBkeyString nero lastRead = [311]
+result of setODBkeyvalue of nero lastRead = [1]
+result of CreateODBkeyFloat nero lastRead = [311]
+result of setODBkeyvalue of nero lastRead = [1]
+result of CreateODBkeyFloat nero lastRead = [311]
+result of setODBkeyvalue of nero lastRead = [1]
+
+Alarm ODB keys
+
+result of CreateODBSubDir nero DiskSpaceUtilization = [311]
+result of setODBkeyvalue Active = [1]
+result of CreateODBSubDir nero DiskSpaceUtilization = [311]
+result of setODBkeyvalue Type = [1]
+result of CreateODBSubDir nero DiskSpaceUtilization = [311]
+result of setODBkeyvalue Condition = [1]
+result of CreateODBSubDir nero DiskSpaceUtilization = [311]
+result of setODBkeyvalue Alarm Class = [1]
+result of CreateODBSubDir nero DiskSpaceUtilization = [311]
+result of setODBkeyvalue Alarm Message = [1]
+
+result of CreateODBSubDir nero ProcessorsUtilization = [311]
+result of setODBkeyvalue Active = [1]
+result of CreateODBSubDir nero processorsUtilization = [311]
+result of setODBkeyvalue Type = [1]
+result of CreateODBSubDir nero ProcessorsUtilization = [311]
+result of setODBkeyvalue Condition = [1]
+result of CreateODBSubDir nero ProcessorsUtilization = [311]
+result of setODBkeyvalue Alarm Class = [1]
+result of CreateODBSubDir nero ProcessorsUtilization = [311]
+result of setODBkeyvalue Alarm Message = [1]
+
+result of CreateODBSubDir nero MemoryUtilizationMem = [311]
+result of setODBkeyvalue Active = [1]
+result of CreateODBSubDir nero MemoryUtilizationMem = [311]
+result of setODBkeyvalue Type = [1]
+result of CreateODBSubDir nero MemoryUtilizationMem = [311]
+result of setODBkeyvalue Condition = [1]
+result of CreateODBSubDir nero MemoryUtilizationMem = [311]
+result of setODBkeyvalue Alarm Class = [1]
+result of CreateODBSubDir nero MemoryUtilizationMem = [311]
+result of setODBkeyvalue Alarm Message = [1]
+
+result of CreateODBSubDir nero MemoryUtilizationTMem = [311]
+result of setODBkeyvalue Active = [1]
+result of CreateODBSubDir nero MemoryUtilizationTMem = [311]
+result of setODBkeyvalue Type = [1]
+result of CreateODBSubDir nero MemoryUtilizationTMem = [311]
+result of setODBkeyvalue Condition = [1]
+result of CreateODBSubDir nero MemoryUtilizationTMem = [311]
+result of setODBkeyvalue Alarm Class = [1]
+result of CreateODBSubDir nero MemoryUtilizationTMem = [311]
+result of setODBkeyvalue Alarm Message = [1]

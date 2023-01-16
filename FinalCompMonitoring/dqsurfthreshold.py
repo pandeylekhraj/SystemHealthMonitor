@@ -1,0 +1,10 @@
+import midas.client
+client=midas.client.MidasClient('pytest')
+ODB_test=client.odb_get('/HealthMonitoring/ComputerMonitoring/ThresholdControl/cdms-dqsurf/ODB_Test_Value')
+DiskSpaceThreshold=client.odb_get('/HealthMonitoring/ComputerMonitoring/ThresholdControl/cdms-dqsurf/NumDiskaboveTest_Value')
+MeanProcessorThreshold=client.odb_get('/HealthMonitoring/ComputerMonitoring/ThresholdControl/cdms-dqsurf/MeanCPUutilThreshold')
+MemThreshold=client.odb_get('/HealthMonitoring/ComputerMonitoring/ThresholdControl/cdms-dqsurf/MemUtilThreshold')
+print(ODB_test)
+print(DiskSpaceThreshold)
+print(MeanProcessorThreshold)
+print(MemThreshold)

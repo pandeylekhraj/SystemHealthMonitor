@@ -1,0 +1,2 @@
+12:45:01.697 2022/10/21 [pytest,ERROR] [midas.cxx:12591:rpc_server_connect,ERROR] cannot resolve host name 'cdms-gw.cdmsdaq.snolab.ca'
+12:29:44.389 2022/11/03 [pytest,ERROR] [midas.cxx:12591:rpc_server_connect,ERROR] cannot resolve host name 'cdms-gw.cdmsdaq.snolab.ca'
